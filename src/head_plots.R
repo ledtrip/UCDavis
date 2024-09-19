@@ -26,3 +26,6 @@ plot <- ggplot(data, aes(x = days_to_head, y = cumul_head, color = Location, sha
     print(plot_function(year_data) + ggtitle(paste("Year:", i)))
   }
   dev.off()
+
+  
+  #branch test with Zhang
